@@ -1,0 +1,24 @@
+Package: repropsydata
+Type: Package
+Title: Datasets for the Psychological Research Textbook
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Christian", "Martinez",
+      email = "c.martinez0@outlook.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Contains datasets used in the Reproducible Psychological Research 	  textbook.
+    Each dataset supports classroom examples in R, including raw and cleaned versions
+    for reproducibility and instructional use.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5)
+Imports:
+	readxl,
+	janitor,
+	tidyverse
+RoxygenNote: 7.3.3
