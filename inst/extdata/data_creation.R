@@ -8,7 +8,7 @@ library(dplyr)
 # --- Pizza Sales Data -------------------------------------------------
 
 # 1. Import raw Excel data
-pizza_sales_raw <- readxl::read_xlsx("data_raw/pizza_sales.xlsx")
+pizza_sales_raw <- readxl::read_xlsx("inst/extdata/pizza_sales.xlsx")
 
 # 2. Save raw version
 usethis::use_data(pizza_sales_raw, overwrite = TRUE)
@@ -26,7 +26,7 @@ usethis::use_data(pizza_sales, overwrite = TRUE)
 # --- Infection Treatment Data -----------------------------------------
 
 # 1. Import Infection Treatment data
-infection_treatment <- readxl::read_xlsx("data_raw/infection_treatment.xlsx")
+infection_treatment <- readxl::read_xlsx("inst/extdata/infection_treatment.xlsx")
 
 # 2. Save dataset (no cleaning needed)
 usethis::use_data(infection_treatment, overwrite = TRUE)
@@ -34,7 +34,8 @@ usethis::use_data(infection_treatment, overwrite = TRUE)
 # --- Anxiety data -----------------------------------------
 
 # 1. Import Anxiety data
-anxiety <- readxl::read_xlsx("data_raw/anxiety.xlsx")
+anxiety <- readxl::read_xlsx("inst/extdata/anxiety.xlsx")
 
 # 2. Save dataset (no cleaning needed)
 usethis::use_data(anxiety, overwrite = TRUE)
+
