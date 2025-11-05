@@ -22,3 +22,5 @@ Imports:
 	janitor,
 	tidyverse
 RoxygenNote: 7.3.3
+URL: https://github.com/martinezc1/repropsydata
+BugReports: https://github.com/martinezc1/repropsydata/issues
