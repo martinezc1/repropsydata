@@ -14,3 +14,6 @@
 #' @source Original "anxiety.xlsx" from textbook materials.
 "anxiety"
 
+#' @examples
+#' data("anxiety")
+#' table(anxiety$Gender)

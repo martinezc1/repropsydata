@@ -10,3 +10,7 @@
 #' }
 #' @source Original "infection_treatment.xlsx" from textbook materials.
 "infection_treatment"
+
+#' @examples
+#' data("infection_treatment")
+#' table(infection_treatment$Infection)

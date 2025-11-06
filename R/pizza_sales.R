@@ -11,3 +11,6 @@
 #' @source Derived from \code{pizza_sales_raw} using cleaning steps in linear regression chapter
 "pizza_sales"
 
+#' @examples
+#' data("pizza_sales")
+#' head(pizza_sales)

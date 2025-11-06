@@ -12,3 +12,6 @@
 #' @source Original “pizza_sales.xlsx” from textbook materials.
 "pizza_sales_raw"
 
+#' @examples
+#' data("pizza_sales")
+#' tail(pizza_sales)
